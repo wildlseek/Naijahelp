@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hosp_1793038978515",
+    "name": "Hospital Test",
+    "category": "hospital",
+    "phone": "+2348012345678",
+    "address": "1 Admiralty Way, Lekki Phase 1",
+    "lat": 6.4388,
+    "lon": 3.4603,
+    "verificationStatus": "verified",
+    "availabilityStatus": "available",
+    "lastConfirmedAt": "2026-10-26"
+  },
+  {
+    "id": "phar_1793039047703",
+    "name": "PHARMACY TEST",
+    "category": "pharmacy",
+    "phone": "+2348012345678",
+    "address": "The Palms Mall, Admiralty Way, Lekki",
+    "lat": 6.4364,
+    "lon": 3.4635,
+    "verificationStatus": "verified",
+    "availabilityStatus": "available",
+    "lastConfirmedAt": "2026-10-26"
+  },
+  {
+    "id": "mech_1793039092220",
+    "name": "MECH TEST",
+    "category": "mechanic",
+    "phone": "+2348012345678",
+    "address": "Maruwa Bus Stop, Lekki Phase 1",
+    "lat": 6.4421,
+    "lon": 3.468,
+    "verificationStatus": "verified",
+    "availabilityStatus": "available",
+    "lastConfirmedAt": "2026-10-26"
+  },
+  {
+    "id": "vulc_1793039139102",
+    "name": "VULCA TEST",
+    "category": "vulcanizer",
+    "phone": "+2348012345678",
+    "address": "Fola Osibo Street, Lekki Phase 1",
+    "lat": 6.4335,
+    "lon": 3.4532,
+    "verificationStatus": "verified",
+    "availabilityStatus": "available",
+    "lastConfirmedAt": "2026-10-26"
+  }
+]
