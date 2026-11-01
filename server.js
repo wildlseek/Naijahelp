@@ -8,7 +8,7 @@ app.use(express.json({ limit: "1mb" }));
 const PORT = process.env.PORT || 3000;
 const PROVIDERS_FILE = path.join(__dirname, "providers.json");
 const GRAPH_VERSION = process.env.GRAPH_API_VERSION || "v22.0";
-const VERIFY_TOKEN = process.env.WHATSAPP_VERIFY_TOKEN;
+const VERIFY_TOKEN = process.env.WHATSAPP_VERIFY_TOKEN || process.env.VERIFY_TOKEN || "naijahelp123";;
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "naijahelp2026";
 const ADMIN_NUMBERS = (process.env.ADMIN_WHATSAPP_NUMBERS || "").split(",").map(s=>s.trim()).filter(Boolean);
 
